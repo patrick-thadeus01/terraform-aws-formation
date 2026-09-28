@@ -1,0 +1,18 @@
+#Les ficiers a ne jamais versionner
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+#Les ficiers de variables sensibles
+*.tfvars
+!terraform.tfvars.example
+#Ficiers d'environnement
+.env
+*.pem
+*.key
+
+#IDE
+.vscode/
+.idea/
